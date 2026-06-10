@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LegalMarc — Marc Mandel | Local-first legal tech, including Marcut</title>
+  <meta name="description" content="Marc Mandel (LegalMarc) builds local-first legal technology — including Marcut, an open-source macOS tool that redacts PII and confidential data from DOCX files entirely offline.">
+  <link rel="canonical" href="https://legalmarc.github.io/">
+  <meta name="author" content="Marc Mandel">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://legalmarc.github.io/">
+  <meta property="og:title" content="LegalMarc — Marc Mandel | Local-first legal tech, including Marcut">
+  <meta property="og:description" content="Lawyer and builder. Open-source, local-first tools for legal professionals — the Marc-* suite, including Marcut.">
+  <meta name="twitter:card" content="summary">
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Marc Mandel",
+    "alternateName": "LegalMarc",
+    "url": "https://legalmarc.github.io/",
+    "jobTitle": "Lawyer and software builder",
+    "knowsAbout": ["Legal technology", "Document redaction", "Privacy", "Local-first software", "Local AI"],
+    "sameAs": [
+      "https://github.com/LegalMarc",
+      "https://www.linkedin.com/in/marcmandel"
+    ],
+    "mainEntityOfPage": {
+      "@type": "SoftwareApplication",
+      "name": "Marcut",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "macOS",
+      "description": "Open-source, local-first DOCX redaction tool for lawyers and professionals.",
+      "url": "https://github.com/LegalMarc/marcut"
+    }
+  }
+  </script>
+
+  <style>
+    :root {
+      --ink: #14213d;
+      --muted: #5b647a;
+      --accent: #1d4ed8;
+      --line: #e3e7ef;
+      --bg: #ffffff;
+      --card: #f7f9fc;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: var(--ink);
+      background: var(--bg);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+    .wrap { max-width: 760px; margin: 0 auto; padding: 0 22px; }
+    header { padding: 72px 0 34px; border-bottom: 1px solid var(--line); }
+    .eyebrow { letter-spacing: .12em; text-transform: uppercase; font-size: 13px; color: var(--accent); font-weight: 600; margin: 0 0 10px; }
+    h1 { font-size: clamp(30px, 6vw, 46px); line-height: 1.1; margin: 0 0 16px; }
+    .lede { font-size: 19px; color: var(--muted); margin: 0; }
+    .lede strong { color: var(--ink); }
+    section { padding: 40px 0; border-bottom: 1px solid var(--line); }
+    h2 { font-size: 22px; margin: 0 0 18px; }
+    p { margin: 0 0 16px; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .cta {
+      display: inline-block; margin-top: 6px; padding: 11px 20px;
+      background: var(--accent); color: #fff; border-radius: 8px; font-weight: 600;
+    }
+    .cta:hover { text-decoration: none; opacity: .92; }
+    .grid { display: grid; gap: 12px; }
+    .tool {
+      background: var(--card); border: 1px solid var(--line); border-radius: 10px;
+      padding: 16px 18px;
+    }
+    .tool h3 { margin: 0 0 4px; font-size: 17px; }
+    .tool p { margin: 0; color: var(--muted); font-size: 15px; }
+    .tag { font-size: 12px; font-weight: 600; color: var(--muted); float: right; }
+    .tag.pub { color: #15803d; }
+    ul.vals { margin: 0; padding-left: 20px; color: var(--muted); }
+    ul.vals strong { color: var(--ink); }
+    footer { padding: 34px 0 70px; color: var(--muted); font-size: 15px; }
+    footer a { font-weight: 600; }
+    .links { margin: 0 0 14px; }
+    .links a { margin-right: 18px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+
+    <header>
+      <p class="eyebrow">LegalMarc</p>
+      <h1>Marc Mandel</h1>
+      <p class="lede">Lawyer and builder working at the intersection of <strong>law, privacy, and local-first software</strong>. I make tools for professionals who handle sensitive information — software that is useful, understandable, and trustworthy.</p>
+    </header>
+
+    <section>
+      <h2>Marcut — flagship</h2>
+      <p><a href="https://github.com/LegalMarc/marcut"><strong>Marcut</strong></a> is an open-source, local-first document redaction tool for lawyers and professionals. It's a native macOS app that detects and redacts confidential information and PII from Microsoft Word (<code>.docx</code>) files <strong>without uploading anything to the cloud</strong> — a deterministic rules engine for structured data, plus optional local AI (Ollama) for names and organizations. Output is standard Word "Track Changes" redlines with JSON audit reports, so a human reviews every change before anything leaves the building.</p>
+      <a class="cta" href="https://github.com/LegalMarc/marcut">View Marcut on GitHub →</a>
+    </section>
+
+    <section>
+      <h2>The Marc-* suite</h2>
+      <p>A growing set of local-first tools for legal and professional workflows.</p>
+      <div class="grid">
+        <div class="tool"><span class="tag pub">Public</span><h3><a href="https://github.com/LegalMarc/marcut">Marcut</a></h3><p>Local-first <code>.docx</code> redaction (rules + local AI) for macOS.</p></div>
+        <div class="tool"><span class="tag pub">Public</span><h3><a href="https://github.com/LegalMarc/Marcrypt">Marcrypt</a></h3><p>Native macOS bulk PDF decryption.</p></div>
+        <div class="tool"><span class="tag">Private</span><h3>Marcompare</h3><p>Local-first legal document comparison &amp; redlining for macOS.</p></div>
+        <div class="tool"><span class="tag">Private</span><h3>Marcusign</h3><p>E-signature platform.</p></div>
+        <div class="tool"><span class="tag">In development</span><h3>Marcabinet</h3><p>Secure document organization.</p></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Beyond legal tech</h2>
+      <div class="grid">
+        <div class="tool"><span class="tag pub">Public</span><h3><a href="https://github.com/LegalMarc/centauri-sentinel">centauri-sentinel</a></h3><p>AI print-failure detection and alerting for the Elegoo Centauri 3D printer.</p></div>
+        <div class="tool"><span class="tag">Private</span><h3>Skull</h3><p>A local-first AI knowledge OS, in active development.</p></div>
+        <div class="tool"><span class="tag pub">Public</span><h3><a href="https://github.com/LegalMarc/tab-roulette">tab-roulette</a></h3><p>A roulette wheel that declutters your tab bar, one spin at a time.</p></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>How I build</h2>
+      <ul class="vals">
+        <li><strong>Local-first</strong> — sensitive information shouldn't travel unless it has to.</li>
+        <li><strong>Auditable</strong> — you should be able to see what the tool did and verify the result.</li>
+        <li><strong>Reversible</strong> — good systems make irreversible mistakes hard to commit by accident.</li>
+        <li><strong>Human-centered</strong> — automation supports professional judgment; it doesn't replace it.</li>
+      </ul>
+    </section>
+
+    <footer>
+      <div class="links">
+        <a href="https://github.com/LegalMarc">GitHub</a>
+        <a href="https://www.linkedin.com/in/marcmandel">LinkedIn</a>
+        <a href="https://github.com/LegalMarc/marcut">Marcut</a>
+      </div>
+      LegalMarc is where Marc Mandel publishes tools and experiments around law, privacy, automation, and local-first professional software.
+    </footer>
+
+  </div>
+</body>
+</html>
